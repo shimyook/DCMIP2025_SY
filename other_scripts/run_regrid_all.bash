@@ -5,7 +5,11 @@
 
 hor_res=mpasa120
 out_res=1x1
-expname=sy_dcmip2025_horiz_mount_flow_${hor_res}_cntrl
+
+exptype=cntrl
+
+expname=sy_dcmip2025_horiz_mount_flow_${hor_res}_{exptype}
+
 input_dir="/glade/work/simchany/dcmip25/${expname}/run"
 
 # Loop through each relevant file in the directory
